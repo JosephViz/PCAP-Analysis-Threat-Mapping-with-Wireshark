@@ -55,7 +55,7 @@ Analysis of SMB2 traffic showing remote file access:  <br/>
 </p>
 
 <h2>Summary</h2>
-The process began by examining "Protocol Hierarchy Statistics" to identify active protocols and overall traffic composition, follwed by 'Conversations analysis" to determin top talkers anc communication patterns. Subsequent filtering revealed hostnames, authentication exchanges, and SMB2 activity associated with PsExec, including a failed lateral movement attempt from 10.0.0.130 to 10.0.0.131. The findings demonstrate how systematic packet inspection can reconstuct attacker behavior and validate host interactions within a compromised network.
+The process began by examining "Protocol Hierarchy Statistics" to identify active protocols and overall traffic composition, follwed by 'Conversations analysis" to determine top talkers and communication patterns. Subsequent filtering revealed hostnames, authentication exchanges, and SMB2 activity associated with PsExec, including a failed lateral movement attempt from 10.0.0.130 to 10.0.0.131. The findings demonstrate how systematic packet inspection can reconstuct attacker behavior and validate host interactions within a compromised network.
 <!--
  ```diff
 - text in red
